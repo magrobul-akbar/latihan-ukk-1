@@ -5,31 +5,20 @@
  */
 package modul4;
 
-
 /**
  *
  * @author PC SISWA
  */
-public class PerulanganWhile {
+public class LoopWhile2 {
     public static void main(String[] args) {
-        int i = 1;
+        int i = 5;
         System.out.println("==========================");
         System.out.println("Menampilkan bilangan 1 - 5");
         System.out.println("==========================");
         
-        while(i <= 5) {
+        while(i >= 1) {
             System.out.println("Ini bilangan ke : " + i);
-            i++;
-        }
-        
-        int a = 5;
-        System.out.println("==========================");
-        System.out.println("Menampilkan bilangan 5 - 1");
-        System.out.println("==========================");
-        
-        while(a >= 1) {
-            System.out.println("Ini bilangan ke : " + a);
-            a--;
+            i--;
         }
     }
 }
