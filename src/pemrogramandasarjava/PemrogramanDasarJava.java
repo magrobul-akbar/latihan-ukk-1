@@ -16,6 +16,20 @@ public class PemrogramanDasarJava {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        int i = 0;
+        while (i < 5) {
+            System.out.println(i + " While Loop");
+            i++;
+        }
+
+        do {
+            System.out.println(i + " Do While Loop");
+            i++;
+        } while (i < 10);
+        
+        for(int number = 1; number <= 10; number++) {
+            System.out.println(number + " For Loop");
+        }
     }
-    
+
 }
