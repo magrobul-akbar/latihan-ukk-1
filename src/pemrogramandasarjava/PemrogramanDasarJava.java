@@ -30,6 +30,14 @@ public class PemrogramanDasarJava {
         for(int number = 1; number <= 10; number++) {
             System.out.println(number + " For Loop");
         }
+        
+        int t = 1;
+        
+        String[] data = {"Farabi","Islah","Egy","Satanis","Republik","Demokratis"};
+        for(String tes : data) {
+            System.out.println("Nama Ke " + t + " : " + tes + " Foreach Loop");
+            t++;
+        }
     }
 
 }
