@@ -19,30 +19,34 @@ public class DataDiri {
         Scanner scan = new Scanner(System.in);
 
         System.out.println("Masukan Data Diri");
-        System.out.print("Masukan Nama : ");
+        System.out.println("=========================================");
+        System.out.println("");
+        System.out.println("");
+        System.out.println("Masukan Nama : ");
         nama = scan.next();
 
-        System.out.print("Masukan Kelas : ");
+        System.out.println("Masukan Kelas : ");
         kelas = scan.next();
 
-        System.out.print("Masukan Jurusan : ");
+        System.out.println("Masukan Jurusan : ");
         jurusan = scan.next();
 
-        System.out.print("Masukan Nomor Absen : ");
+        System.out.println("Masukan Nomor Absen : ");
         absen = scan.nextInt();
 
-        System.out.print("Masukan Alamat : ");
+        System.out.println("Masukan Alamat : ");
         alamat = scan.next();
 
-        System.out.print("Masukan Umur : ");
+        System.out.println("Masukan Umur : ");
         umur = scan.nextInt();
 
-        System.out.print("Masukan Alamat Tempat Lahir : ");
+        System.out.println("Masukan Alamat Tempat Lahir : ");
         tempatLahir = scan.next();
 
-        System.out.print("Masukan Tanggal Lahir dalam format Y-m-d : ");
+        System.out.println("Masukan Tanggal Lahir dalam format Y-m-d : ");
         tanggalLahir = scan.next();
-
+        
+  
         System.out.println("==============================================================");
         System.out.println("Nama : " + nama);
         System.out.println("Kelas : " + kelas);
