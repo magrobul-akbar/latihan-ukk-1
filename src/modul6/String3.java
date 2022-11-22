@@ -14,7 +14,7 @@ public class String3 {
     public static void main(String[] args) {
         StringBuffer sbuf = new StringBuffer("smk bisa");
         sbuf.insert(4, "Sangat ");
-        sbuf.insert(15, " gan!! ");
+        sbuf.append(" gan!!");
         System.out.println("Hasil : ");
         System.out.println(sbuf.toString().toUpperCase());
     }

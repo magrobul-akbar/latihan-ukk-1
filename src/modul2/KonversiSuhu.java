@@ -3,8 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package modul3;
+package modul2;
+
 import java.util.Scanner;
+
 /**
  *
  * @author PC SISWA

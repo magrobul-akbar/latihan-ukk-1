@@ -13,8 +13,8 @@ public class Biodata {
     public static void main(String[]args){
         System.out.println("  BIODATA ");
         System.out.println("<===========>");
-        System.out.println("Nama    : Taupik Firdaus");
-        System.out.println("Kelas   : XII ");
+        System.out.println("Nama    : Magrobul Akbar");
+        System.out.println("Kelas   : XII-RPL-1");
         System.out.println("Jurusan : Rekayasa Perangkat Lunak");
         System.out.println("Agama   : Islam");
         System.out.println("Hobi    : Tidur");
